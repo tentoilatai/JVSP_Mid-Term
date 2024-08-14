@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Product Detail</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title" th:text="${product.name}"></h5>
+                <p class="card-text">Price: <span th:text="${product.price}"></span></p>
+                <p class="card-text">Discount Price: <span th:text="${product.discountPrice}"></span></p>
+                <p class="card-text">Category: <span th:text="${product.category}"></span></p>
+                <p class="card-text">Status: <span th:text="${product.status}"></span></p>
+                <p class="card-text">Description: <span th:text="${product.description}"></span></p>
+                <img th:src="@{${product.image}}" class="img-fluid" alt="Product Image">
+                <a th:href="@{/products/edit/{id}(id=${product.id})}" class="btn btn-warning mt-3">Edit</a>
+                <a th:href="@{/products}" class="btn btn-secondary mt-3">Back to List</a>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
