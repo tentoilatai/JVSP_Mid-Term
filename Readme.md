@@ -1,5 +1,3 @@
-Here is the `README.md` code for your project:
-
 # Mid-Term Project
 
 This project follows the tutorial from the video: [YouTube Video](https://www.youtube.com/watch?v=WyOeWlnNj8Y).
