@@ -80,4 +80,4 @@ src/
 
 ## Contact
 
-If you have any questions, please contact via email or create an issue on this repository.
+If you have any questions, please contact via email: iam@kaiz.vn or create an issue on this repository.
