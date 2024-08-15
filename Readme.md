@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/91df032e-044e-410d-bd4f-fd3772efc6d3)
+
+
 # Mid-Term Project
 
 This project follows the tutorial from the video: [YouTube Video](https://www.youtube.com/watch?v=WyOeWlnNj8Y).
